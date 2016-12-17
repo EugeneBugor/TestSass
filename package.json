@@ -1,0 +1,26 @@
+{
+  "name": "test-scss",
+  "version": "1.0.0",
+  "main": "main.scss",
+  "repository": {
+    "url": "https://github.com/EugeneBugor/TestSass.git",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node ./server"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.0.0",
+    "resolve-url-loader": "^1.6.1",
+    "sass-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  }
+}

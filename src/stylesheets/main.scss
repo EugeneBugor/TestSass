@@ -1,0 +1,9 @@
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+.box {
+  width: auto;
+  text-align: center;
+  border: 1px solid black;
+  @include border-radius(10px);
+}
