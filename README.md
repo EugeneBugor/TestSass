@@ -5,4 +5,4 @@ test webpack hmr boilerpate
 
 type ```npm i```, then ```npm run start```
 
-The project listening on 8000 port
+The project is listening on localhost:8000
