@@ -1,5 +1,5 @@
 # TestSass
-test webpack hmr boilerpate
+test webpack hmr boilerplate
 
 ##How to run the project
 
