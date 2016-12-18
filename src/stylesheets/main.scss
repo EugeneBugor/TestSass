@@ -1,9 +1,32 @@
+$color: #66ff3e;
+$count: 10;
+
 @mixin border-radius($radius) {
   border-radius: $radius;
 }
+
+@while $count > 0 {
+  .count-#{$count} {
+    background-color: lighten($color, $count*3);
+    color: darken(red, $count*3);
+    font-size: 50px - $count*5;
+  }
+  $count: $count - 1;
+}
+
 .box {
-  width: auto;
-  text-align: center;
-  border: 1px solid black;
-  @include border-radius(10px);
+  @include border-radius(5px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-items: baseline;
+  border: 1px solid $color;
+  padding: 10px;
+  transition: all .5s;
+  p {
+    $border: for !default;;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
 }
